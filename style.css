@@ -289,3 +289,10 @@ input[aria-invalid="true"] { border-color: var(--error); }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 .nw { white-space: nowrap; }
 .branches .en { display: block; font-size: 0.86rem; color: var(--muted); margin-top: 1px; }
+
+.lots { list-style: none; margin: 14px 0 0; padding: 0; border-top: 1px solid var(--rule); }
+.lots li { padding: 10px 0; border-bottom: 1px solid var(--rule); }
+.lots li { padding: 14px 0; }
+.lot-name { margin: 0; }
+.lot-facts { margin: 4px 0 0; font-size: 0.85rem; color: var(--muted); text-align: right; }
+.lots .label-text { margin: 10px 0 0; border-left: none; border-right: 3px solid var(--ink); padding-right: 10px; text-align: right; }
