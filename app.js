@@ -13,9 +13,9 @@ const config = {
 const EVENT_KEYS = ['fermentation', 'standout'];
 
 const EVENT_NAMES = {
-  fermentation: 'The Fermentation Project',
-  standout: 'Standout Coffee',
-  both: 'שתי הטעימות',
+  fermentation: 'סבב 1 · The Fermentation Project',
+  standout: 'סבב 2 · Standout Coffee',
+  both: 'שני הסבבים',
 };
 
 // Filled from /api/events. Only spots_left is kept here; the rest comes from config.
@@ -276,7 +276,7 @@ form.addEventListener('submit', async (e) => {
     return;
   }
   if (!event) {
-    showError('בחרו אירוע, או שניהם.', form.querySelector('input[name="event"]'));
+    showError('בחרו סבב, או את שניהם.', form.querySelector('input[name="event"]'));
     return;
   }
 
