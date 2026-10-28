@@ -6,7 +6,7 @@
 const config = {
   apiBase: '/cupping',
   whatsapp: '',
-  paybox: { fermentation: "", standout: "" },
+  paybox: { fermentation: "https://links.payboxapp.com/Umd6i7ImB7b", standout: "" },
   soldOut: { fermentation: false, standout: false },
 };
 
